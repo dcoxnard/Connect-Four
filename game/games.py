@@ -257,7 +257,6 @@ def play_n_games(n_games=100, p1_model=None, p2_model=None,
 
 
 if __name__ == "__main__":
-    model = None
     n_games = 100
     start = time.time()
     games = play_n_games(n_games)
